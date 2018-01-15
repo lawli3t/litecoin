@@ -141,14 +141,14 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-		{0, consensus.hashGenesisBlock},
+                {0, consensus.hashGenesisBlock},
             }
         };
 
         chainTxData = ChainTxData{
             1515946275,
             0,
-            0
+            0.001
         };
     }
 };
