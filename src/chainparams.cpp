@@ -101,7 +101,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000ba50a60f8b56c7fe0");
+        consensus.nMinimumChainWork = uint256S("0x146e78e7dcff6ea0d3038bd0be608e3803f784b7d247a82e136b454298ed43e7");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x146e78e7dcff6ea0d3038bd0be608e3803f784b7d247a82e136b454298ed43e7"); //1259849
@@ -111,10 +111,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xfb;
-        pchMessageStart[1] = 0xc0;
-        pchMessageStart[2] = 0xb6;
-        pchMessageStart[3] = 0xdb;
+        pchMessageStart[0] = 0x14;
+        pchMessageStart[1] = 0x90;
+        pchMessageStart[2] = 0xb7;
+        pchMessageStart[3] = 0xa1;
         nDefaultPort = 54321;
         nPruneAfterHeight = 100000;
 
@@ -192,10 +192,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0xad8ff6c2f5580d2b50bd881e11312425ea84fa99f322bf132beb722f97971bba"); //153490
 
-        pchMessageStart[0] = 0xfd;
-        pchMessageStart[1] = 0xd2;
-        pchMessageStart[2] = 0xc8;
-        pchMessageStart[3] = 0xf1;
+        pchMessageStart[0] = 0x14;
+        pchMessageStart[1] = 0x90;
+        pchMessageStart[2] = 0xb7;
+        pchMessageStart[3] = 0xa1;
         nDefaultPort = 54322;
         nPruneAfterHeight = 1000;
 
@@ -275,10 +275,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0x14;
+        pchMessageStart[1] = 0x90;
+        pchMessageStart[2] = 0xb7;
+        pchMessageStart[3] = 0xa1;
         nDefaultPort = 19444;
         nPruneAfterHeight = 1000;
 
