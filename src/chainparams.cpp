@@ -146,9 +146,9 @@ public:
         };
 
         chainTxData = ChainTxData{
-            1515946275,
             0,
-            0.001
+            0,
+            0
         };
     }
 };
